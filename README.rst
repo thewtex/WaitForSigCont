@@ -1,7 +1,10 @@
 WaitForSigCont
 ==============
 
-A small tool to debug long running code or difficult to attach processes with `gdb <https://www.gnu.org/software/gdb/>`_.
+A small tool to debug long running code or difficult to attach processes with
+`gdb <https://www.gnu.org/software/gdb/>`_.  The computationally intensive
+code is executed outside of the debugger, then the process pauses so the
+debugger can be attached.
 
 
 First, include the header file where you want to start debugging::
